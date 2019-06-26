@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"es6",
+			"scripthost"
+		],
+		"module": "commonjs",
+	},
+	"typeAcquisition": {
+		"enable": true,
+		"include": ["node"]
+	}
+}

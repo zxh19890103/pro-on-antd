@@ -1,0 +1,23 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"dom",
+			"dom.iterable",
+			"es6",
+			"scripthost"
+		],
+		"rootDir": "./src",
+		"module": "commonjs",
+		"target": "es6",
+		"jsx": "react",
+		"alwaysStrict": true,
+		"experimentalDecorators": true,
+		"moduleResolution": "node",
+		"incremental": true,
+		"esModuleInterop": true
+	},
+	"include": ["./src"],
+	"exclude": [
+		"node_modules"
+	]
+}
